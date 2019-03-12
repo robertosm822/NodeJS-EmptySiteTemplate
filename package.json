@@ -1,12 +1,20 @@
 {
-  "name": "application-name",
-  "version": "2.0.0",
-  "private": true,
+  "name": "api-node-planets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node server"
-  },  
-"license": "Apache",
-"engines": {
-    "node": "~0.10.0 || ~4.2.0"
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Soares De Melo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
   }
 }
